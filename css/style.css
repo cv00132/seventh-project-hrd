@@ -1,0 +1,45 @@
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  height: 500px;
+  width: 900px;
+  background-size: cover;
+  transition: background-image 1s ease-in-out; }
+
+.hidden {
+  opacity: 0%;
+  display: none; }
+
+.visible {
+  opacity: 100%;
+  display: inline-block; }
+
+.left-arrow .right-arrow {
+  display: block;
+  position: relative;
+  width: 36px;
+  height: 36px; }
+
+.left-arrow span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-position: -50px 0;
+  opacity: 0; }
+
+.right-arrow span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-position: -50px 0;
+  opacity: 0; }
+
+.left-arrow:hover span {
+  opacity: 1; }
+
+.right-arrow:hover span {
+  opacity: 1; }
